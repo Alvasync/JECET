@@ -2,7 +2,6 @@
 
 Sistema web para precificação de imóveis em Jacareí utilizando inteligência artificial 
 
-## Tutorial rápido: rodando o projeto pelo terminal do VS Code
 
 Copie e cole os comandos abaixo, um por um, no terminal do VS Code:
 
