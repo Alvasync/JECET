@@ -6,16 +6,21 @@ Sistema web para precificação de imóveis em Jacareí utilizando inteligência
 
 Copie e cole os comandos abaixo, um por um, no terminal do VS Code:
 
-```sh
-git clone https://github.com/Alvasync/ProjetoIntegrador1.git
-cd ProjetoIntegrador1
-python -m venv venv
-venv\Scripts\activate   # (Windows)
-# ou
-source venv/bin/activate  # (Linux/Mac)
+# 1. Clonar o repositório
+cd C:\Users\SEU_USUARIO\Downloads
+git clone https://github.com/Alvasync/JECET.git
+cd JECET
+
+# 2. Criar e ativar ambiente virtual Python
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# 3. Atualizar pip e instalar dependências
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+
+# 4. Rodar a aplicação
 python app.py
-```
 
 Acesse no navegador:
 ```
